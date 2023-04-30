@@ -1,9 +1,15 @@
+/*
+Removes the default padding and margin
+*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+Sets documents body color and default font for paragraph elements.
+*/
 body {
     background-color: #d9dcd6;
 }
@@ -11,6 +17,9 @@ p {
     font-size: 16px;
 }
 
+/*
+Specifies the styling of the header elements
+*/
 header {
     position: fixed;
     width: 100%;
@@ -26,30 +35,38 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-.seo {
+header .seo {
     color: #d9dcd6;
 }
-nav {
+header nav {
     position: absolute;
     right: 25px;
     top: 30px;
 }
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
     margin-left: 25px;
 }
 
+/*
+The landing page image positioning
+*/
 .hero {
     margin-bottom: 25px;
 }
 
-
+/*
+Specifies the style of the main content
+*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/*
+Main body elements with information
+*/
 .Subject {
     margin-bottom: 20px;
     padding: 50px;
@@ -74,6 +91,9 @@ main {
     margin-left: 25px;
 }
 
+/*
+Sidebar elements
+*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -98,6 +118,10 @@ aside {
     max-width: 150px;
 }
 
+
+/*
+Footer elements
+*/
 footer {
     padding: 30px;
     clear: both;
