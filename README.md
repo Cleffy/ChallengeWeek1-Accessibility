@@ -6,6 +6,6 @@ In this challenge, I took an existing template and increased the user's accessib
 I then cleaned up the HTML and CSS code. I used semantic HTML elements and consolidated the CSS elements.
 
 [Landing Page](https://cleffy.github.io/ChallengeWeek1-Accessibility/)
-![Landing Page](/assets/images/ChallengeWeek1-Accessibility_LandingPage.png)
+![Landing Page](/assets/images/codeRefractory_LandingPage.png)
 ## Credits
 Initial landing page provided by UCB Virtual Part-time Bootcamp Challenge Module 1
