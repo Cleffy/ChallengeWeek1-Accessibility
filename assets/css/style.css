@@ -8,7 +8,7 @@ Removes the default padding and margin
 }
 
 /*
-Sets documents body color and default font for paragraph elements.
+Sets documents body color to off-white greenish hugh and default font for paragraph elements.
 */
 body {
     background-color: #d9dcd6;
@@ -18,7 +18,10 @@ p {
 }
 
 /*
-Specifies the styling of the header elements
+Specifies the styling of the header elements.
+Background color is darkish blue.
+Text color is white.
+Font is slightly larger than the body's font.
 */
 header {
     position: fixed;
@@ -35,14 +38,17 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/*This makes SEO text a slightly different color*/
 header .seo {
     color: #d9dcd6;
 }
+/*This positions the nav elements next to the Company icon*/
 header nav {
     position: absolute;
     right: 25px;
     top: 30px;
 }
+/*This removes the default link color,default link underline and spaces out the links.*/
 header a {
     color: #ffffff;
     text-decoration: none;
@@ -50,14 +56,14 @@ header a {
 }
 
 /*
-The landing page image positioning
+The landing page image positioning with a space at the bottom.
 */
 .hero {
     margin-bottom: 25px;
 }
 
 /*
-Specifies the style of the main content
+The area the main content's elements take up and the spacing from the sidebar.
 */
 main {
     width: 75%;
